@@ -14,7 +14,7 @@ MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
 OWNER_ID = int(os.environ.get("OWNER_ID", "7464300713"))
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "7464300713,6559064772,6574945123").split()]  # Default to owner ID
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "7464300713").split()]  # Default to owner ID
 
 # Channel Configuration
 PREMIUM_CHANNEL = "https://t.me/+RLsSJRcu0UMxMDEx"
@@ -59,5 +59,6 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
