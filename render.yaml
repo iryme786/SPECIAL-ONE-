@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: saini-txt-direct
+    name: lexm_8 txt uploader 
     plan: free
     env: docker
     dockerfilePath: Dockerfile
-    repo: 
+    repo: https://github.com/iryme786/SPECIAL-ONE-
     branch: main
     autoDeploy: false
     envVars:
